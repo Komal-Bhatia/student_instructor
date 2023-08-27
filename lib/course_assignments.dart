@@ -4,6 +4,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:studentinstructor_app/all_courses_grid.dart';
 import 'package:studentinstructor_app/components.dart';
 import 'package:studentinstructor_app/course_videos_list.dart';
+//import 'package:studentinstructor_app/course_videos_list.dart';
 
 class CourseAssignments extends StatelessWidget {
   const CourseAssignments({super.key});
@@ -37,7 +38,9 @@ class CourseAssignments extends StatelessWidget {
                   SizedBox(height: 30.0),
                   TextButton(
                       onPressed: () {
-                        Navigator.of(context).pop();
+                        Navigator.of(context).push(MaterialPageRoute(
+                          builder: (context) => CourseVideosList(),
+                        ));
                       },
                       child: Text('Back'))
                 ],
@@ -46,7 +49,7 @@ class CourseAssignments extends StatelessWidget {
           ),
         ),
         appBar: AppBar(
-          title: Text('Course Videos List'),
+          title: Text('Course Assignments List'),
           titleTextStyle: GoogleFonts.poppins(
             color: Colors.white,
             fontSize: 20.0,

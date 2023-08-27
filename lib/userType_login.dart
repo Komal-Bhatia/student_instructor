@@ -36,14 +36,6 @@ class UserTypeLoginScreen extends HookConsumerWidget {
                 'https://neuskills.tatadigital.com/productCompareSection/neuskill_logo.png'),
           ),
         ),
-        // title: Text('Tata Neu'),
-        // titleTextStyle: GoogleFonts.poppins(
-        //   color: Colors.white,
-        //   fontSize: 20.0,
-        // ),
-        // centerTitle: true,
-        // backgroundColor: const Color(0xff102C57),
-        // iconTheme: IconThemeData(color: Colors.white, size: 35.0),
         body: SafeArea(
           child: Container(
             child: Center(
