@@ -1,5 +1,6 @@
 # Student-Instructor App
-
+* [https://preview.flutlab.io/komal.bhatia/student-instructor-app-demo/#/]
+  
 The assignment is to create a Student - Instructor App, a single platform that facilitates seamless interaction between students and instructors. This app will enhance the learning experience by allowing students to access courses, communicate with instructors, and participate in live classes. Instructors will have the tools to manage their courses and engage with students effectively.
 
 ## App Features
