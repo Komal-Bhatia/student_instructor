@@ -24,8 +24,8 @@ class ViewModel extends ChangeNotifier {
 
 //Logout
   Future<void> logout() async {
-    print('Logout Done');
     await _auth.signOut();
+    print('Logout Done');
   }
 
 //Register

@@ -12,42 +12,42 @@ class CourseAssignments extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         backgroundColor: const Color(0xffFFDDCC),
-        drawer: Drawer(
-          backgroundColor: Colors.white,
-          child: Column(
-            children: [
-              Column(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  SizedBox(height: 30.0),
-                  // LogoutButton(),
-                  Container(
-                    height: 200.0,
-                    width: 200.0,
-                    padding: const EdgeInsets.all(16.0),
-                    // decoration: BoxDecoration(
-                    //   border: Border.all(),
-                    // ),
-                    child: const Text(
-                      'Hope! you had a great learning today.',
-                      style: TextStyle(color: Colors.black, fontSize: 25.0),
-                    ),
-                  ),
-                  SizedBox(height: 30.0),
-                  LogoutButton(),
-                  SizedBox(height: 30.0),
-                  TextButton(
-                      onPressed: () {
-                        Navigator.of(context).push(MaterialPageRoute(
-                          builder: (context) => CourseVideosList(),
-                        ));
-                      },
-                      child: Text('Back'))
-                ],
-              ),
-            ],
-          ),
-        ),
+        // drawer: Drawer(
+        //   backgroundColor: Colors.white,
+        //   child: Column(
+        //     children: [
+        //       Column(
+        //         mainAxisAlignment: MainAxisAlignment.center,
+        //         children: [
+        //           SizedBox(height: 30.0),
+        //           // LogoutButton(),
+        //           Container(
+        //             height: 200.0,
+        //             width: 200.0,
+        //             padding: const EdgeInsets.all(16.0),
+        //             // decoration: BoxDecoration(
+        //             //   border: Border.all(),
+        //             // ),
+        //             child: const Text(
+        //               'Hope! you had a great learning today.',
+        //               style: TextStyle(color: Colors.black, fontSize: 25.0),
+        //             ),
+        //           ),
+        //           SizedBox(height: 30.0),
+        //           LogoutButton(),
+        //           SizedBox(height: 30.0),
+        //           TextButton(
+        //               onPressed: () {
+        //                 Navigator.of(context).push(MaterialPageRoute(
+        //                   builder: (context) => CourseVideosList(),
+        //                 ));
+        //               },
+        //               child: Text('Back'))
+        //         ],
+        //       ),
+        //     ],
+        //   ),
+        // ),
         appBar: AppBar(
           title: Text('Course Assignments List'),
           titleTextStyle: GoogleFonts.poppins(

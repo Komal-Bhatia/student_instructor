@@ -38,7 +38,12 @@ class _EnrolledCourseMaterialState extends State<EnrolledCourseMaterial> {
                   ),
                 ),
                 SizedBox(height: 30.0),
-                LogoutButton(),
+                // LogoutButton(),
+                TextButton(
+                    onPressed: () {
+                      Navigator.of(context).pop();
+                    },
+                    child: Text('Back'))
               ],
             ),
           ),

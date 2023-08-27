@@ -1,7 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:studentinstructor_app/all_courses_grid.dart';
+//import 'package:studentinstructor_app/all_courses_grid.dart';
 import 'package:studentinstructor_app/components.dart';
 //import 'package:studentinstructor_app/components.dart';
 import 'package:studentinstructor_app/course_videos.dart';
@@ -41,8 +41,8 @@ class _CourseVideosListState extends State<CourseVideosList> {
                         style: TextStyle(color: Colors.black, fontSize: 25.0),
                       ),
                     ),
-                    SizedBox(height: 30.0),
-                    LogoutButton(),
+                    // SizedBox(height: 30.0),
+                    // LogoutButton(),
                     SizedBox(height: 30.0),
                     TextButton(
                         onPressed: () {
